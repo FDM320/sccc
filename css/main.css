@@ -1,0 +1,334 @@
+/* Smooth scrolling links. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Don't change this. This is required for the full background image. */
+html,
+body,
+header,
+.view {
+	height: 100%;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar .navbar-brand {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of the text. */
+	.custom-navbar .navbar-text {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of links. */
+	.custom-navbar .navbar-nav .nav-link {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+/* Make the navbar black. */
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar-dark {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar-dark .navbar-brand {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of the text. */
+	.custom-navbar-dark .navbar-text {
+		color: rgba(255,255,255,1);
+	}
+	/* Change attributes of links. */
+	.custom-navbar-dark .navbar-nav .nav-link {
+		color: rgba(0,0,0,1);
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar-dark .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar-dark .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+/* Make the navbar yellow. */
+/* Customize the navbar. */  
+	/* Change attributes of the navbar. */
+	.custom-navbar-yellow {
+		background-color: rgba(0,0,0,0);
+	}
+	/* Change attributes of the brand. */
+	.custom-navbar-yellow .navbar-brand {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of the text. */
+	.custom-navbar-yellow .navbar-text {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of links. */
+	.custom-navbar-yellow .navbar-nav .nav-link {
+		color: rgba(255,255,0,1);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	/* Change attributes of hovered links. */
+	.custom-navbar-yellow .nav-item:hover .nav-link {
+		text-decoration: underline;
+	}
+	/* Change attributes of the active page. */
+	.custom-navbar-yellow .nav-item.active .nav-link {
+		text-decoration: underline;
+	}
+/* ----------------------------------------- */
+
+.fa-angle-down {
+	color: white;
+}	
+
+.fa-angle-up {
+	color: white;
+}
+
+.custom-navbar-dark .fa-angle-down {
+	color: black;
+}	
+
+.custom-navbar-dark .fa-angle-up {
+	color: black;
+}
+
+.fa-caret-down {
+	color: white;
+}
+
+.fa-caret-up {
+	color: white;
+}
+	
+.fa-address-card {
+	color: white;
+}
+
+.custom-navbar-dark .fa-address-card {
+	color: black;
+}
+
+.dropdown-menu a:hover {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-menu {
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+}
+
+.dropdown-item {
+	font-weight: bold;
+	color: white;
+}
+	
+ #brand {
+	 text-decoration: none;
+	 color: white;
+ }
+ 
+.white_link {
+	text-decoration: none;
+	color: white;
+}
+
+.white_link:hover {
+	text-decoration: underline;
+	color: white;
+}
+ 
+.city_sunset {
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.city_sunset_link {
+    text-decoration: none;
+    color: coral;
+}
+.city_sunset_link:hover {
+    text-decoration: underline;
+	color: coral;
+}
+
+.fireflies_gif {	
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.fireflies_gif_link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+.fireflies_gif_link:hover {
+    text-decoration: underline;
+	color: lightseagreen;
+}
+
+.forest_sunset {	
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.forest_sunset_link {
+	text-decoration: none;
+    color: aquamarine;
+}
+.forest_sunset_link:hover {
+	text-decoration: underline;
+	color: aquamarine;
+}
+#forest_sunset {
+	color: white;	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.stars_in_space {
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.stars_in_space_link {
+	text-decoration: none;
+    color: yellow;
+}
+.stars_in_space_link:hover {
+	text-decoration: underline;
+	color: yellow;
+}
+
+.stars_atmosphere {
+	color: white;
+	text-shadow: -0.5px 0 blue, 0 0.5px blue, 0.5px 0 blue, 0 -0.5px blue;
+}
+.stars_atmosphere_link {
+    text-decoration: none;
+    color: skyblue;
+}
+.stars_atmosphere_link:hover {
+    text-decoration: underline;
+	color: skyblue;
+}
+
+.neon_delorean {
+	color: white;
+	text-shadow: -0.5px 0 deeppink, 0 0.5px deeppink, 0.5px 0 deeppink, 0 -0.5px deeppink;
+}
+.neon_delorean_link {
+	text-decoration: none;
+    color: yellow;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.neon_delorean_link:hover {
+	text-decoration: underline;
+	color: yellow;
+}
+
+.calvin_and_hobbes {
+	color: white;
+}
+.calvin_and_hobbes_link {
+    text-decoration: none;
+    color: navy;
+}
+.calvin_and_hobbes_link:hover {
+    text-decoration: underline;
+	color: navy;
+}
+
+.rocket_launch {
+	color: white;
+	text-shadow: -0.5px 0 orangered, 0 0.5px orangered, 0.5px 0 orangered, 0 -0.5px orangered;
+}
+.rocket_launch_link {
+    text-decoration: none;
+    color: yellow;
+}
+.rocket_launch_link:hover {
+    text-decoration: underline;
+	color: yellow;
+}
+
+.rocket_color_launch {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.rocket_color_launch_link {
+    text-decoration: none;
+    color: yellow;
+}
+.rocket_color_launch_link:hover {
+    text-decoration: underline;
+	color: yellow;
+}
+
+.dice {
+	color: white;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+.dice_link {
+    text-decoration: none;
+    color: yellow;
+}
+.dice_link:hover {
+    text-decoration: underline;
+	color: yellow;
+}
+#dice {
+	background-color: rgb(0,0,255,0.4);
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+h1 {
+	color: rgba(255,255,255,1);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h4 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer {
+  font-size: .8em;
+}
+ul.posts { 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
