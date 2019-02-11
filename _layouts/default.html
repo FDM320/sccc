@@ -28,7 +28,7 @@
 		<title>{{ page.title }}</title>
 		
 	</head>
-	<body style="background: url({{ page.bg-img }}) no-repeat center center fixed; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain; background-color: black;">
+	<body style="background: url({{ page.bg-img }}) no-repeat center center fixed; -webkit-background-size: {{ page.cover-or-contain }}; -moz-background-size: {{ page.cover-or-contain }}; -o-background-size: {{ page.cover-or-contain }}; background-size: {{ page.cover-or-contain }}; background-color: black;">
     	<header>
     		<!-- Start of Top Navbar -->
     		<nav class="navbar navbar-expand-lg fixed-top {{ page.custom-navbar-top }}">
